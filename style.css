@@ -1,0 +1,185 @@
+/*
+Theme Name: Netexp BSAC
+Theme URI: http://netexp.by
+Description: тема для сайта netexp.by
+Author: Виталий Равкович
+Author URI: https://vk.com/vitalik_ravkovich
+Template: twentysixteen
+Version:  1.0.0
+*/
+ /*Общие*/
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+    text-align: justify;
+}
+
+.info-post {
+    float: right;
+}
+
+.post {
+    margin-bottom: 10px;
+    padding: 30px 10px;
+    border: 1px solid #D6D3D3;
+    border-bottom: 2px solid #C4C2C2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ footer span span {
+     margin-left: 5px;
+ }
+.header-image {
+    margin-bottom: 20px;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    transform: translate(0, 2em);
+
+    width: 100%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.15) 100%);
+    border-image-slice: 1;
+
+}
+
+/*пагинация*/
+
+@media screen and (max-width: 575px) {
+    .ft-wpbs .page-link {
+        font-size: .7rem;
+        padding: .3rem .45rem;
+    }
+}
+ /*Навигация*/
+.nav a {
+    color: black;
+}
+
+.wp-post-image {
+    margin-right:  15px;
+    float: left;
+}
+
+
+    /*.menu-main-menu-container ul {*/
+/*    background-color: #F3F3F5;*/
+/*    position: -webkit-sticky; !* Safari *!*/
+/*    position: sticky;*/
+/*    top: 0;*/
+/*}*/
+
+.menu-main-menu-container ul a:hover {
+    background-color: #e2e4e7;
+}
+
+.menu-main-menu-container ul li .active {
+    background-color: #e2ecf1;
+}
+
+/*partners*/
+.partners {
+    display:table;
+    height: 80px;
+    margin: 25px auto;
+}
+
+
+.partners li {
+    display:table-cell;
+    vertical-align:middle;
+    display: inline-block;
+    margin: 0 40px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    opacity: 0.4;
+}
+
+.partners li:hover {
+    opacity: 1;
+}
+/*footer*/
+.footer {
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    box-shadow: inset 0 2px 2px rgba(0,0,0,0.15);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.right_icons {
+    height: 24px;
+    top: 20px;
+    right: 25px;
+    position: absolute;
+}
+
+.facebook, .twitter, .dribbble {
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    opacity: 0.4;
+}
+
+
+.facebook:hover, .twitter:hover, .dribbble:hover {
+    opacity: 1;
+}
+
+
+.facebook {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent:-9999px;
+    margin-right: 10px;
+    background:url(img/fb.png) no-repeat;
+}
+
+.twitter {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    text-indent:-9999px;
+    background:url(img/tw.png) no-repeat;
+}
+
+
+.dribbble {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-indent:-9999px;
+    background:url(img/dr.png) no-repeat;
+}
+
+
